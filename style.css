@@ -1,0 +1,30 @@
+form {
+    font: 1em sans-serif;
+    max-width: 350px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+} 
+
+input:valid {
+    border: 1px solid green;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+/* input:invalid:required {
+    background-image: linear-gradient(to right, lightpink, red);
+} */
