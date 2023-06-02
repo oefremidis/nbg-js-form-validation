@@ -1,0 +1,11 @@
+.text-success {
+    color: green;
+    font-size: lagre;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: red;
+    font-size: lagre;
+    font-weight: bold;
+}
